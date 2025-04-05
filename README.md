@@ -28,7 +28,7 @@ This repository will serve as a reference point to any Nodes and/or stratums tha
     </tr>
     <tr>
     <td> Digibyte </td>
-    <td>docker run -d --network host --restart always --log-opt max-size=10m --name dgb -v /data/.dgb/:/root/.digibyten theretromike/nodes:digibyte</td>
+    <td>docker run -d --network host --restart always --log-opt max-size=10m --name dgb -v /data/.dgb/:/root/.digibyte theretromike/nodes:digibyte</td>
     <td>You must create an auto cookie (there is a python script to do it for you) and then use rpcauth instead of rpcuser and rpcpassword. You must also specify the algo the node is for, like this in the /data/.dgb/digibyte.conf
       
     rpcauth=xxx:yyy
@@ -36,6 +36,7 @@ This repository will serve as a reference point to any Nodes and/or stratums tha
     
   </td>
   </tr>
+  <tr><td>Pigeoncoin</td><td>docker run -d --network host --restart always --log-opt max-size=10m --name pgn -v /data/.pgn/:/root/.pigeoncore theretromike/nodes:pigeoncoin</td><td></td></tr
 </table>    
 
 <br /><hr /><br />
