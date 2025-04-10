@@ -1,9 +1,8 @@
 # Mining Nodes
-This repository will serve as a reference point to any Nodes and/or stratums that I have Dockerized.
+This repository serves as a reference point to any Nodes and/or stratum bridges that I have Dockerized.
 
-### Crypto Nodes
 <table>
-  <tr><td> App </td> <td> Command </td> <td> Notes </td></tr>
+  <tr><td> Node </td> <td> Command </td> <td> Notes </td></tr>
   <tr><td>Astrix Node</td><td>docker run -d --network host --restart always --log-opt max-size=10m --name astrix -v /data/.astrix-node/:/root/.astrix-node theretromike/nodes:astrix</td><td></td></tr>
   <tr>
     <td> Bitcoin </td>
@@ -38,14 +37,9 @@ This repository will serve as a reference point to any Nodes and/or stratums tha
   </tr>
   <tr><td>Griffion</td><td>sudo docker run -d --network host --restart always --log-opt max-size=10m --name griff -v /data/.griff/:/root/.griffion theretromike/nodes:griffion</td><td></td></tr
   <tr><td>Pigeoncoin</td><td>docker run -d --network host --restart always --log-opt max-size=10m --name pgn -v /data/.pgn/:/root/.pigeoncore theretromike/nodes:pigeoncoin</td><td></td></tr
-</table>    
-
-<br /><hr /><br />
-
-### Mining Stratums / Pools
-This repository will serve as a reference point to any Nodes and/or stratums that I have Dockerized. GitHub has removed my ability to fork projects and execute GitHub actions so some of these docker images may not match the latest version of the node software
+</table>
 
 <table>
-  <tr><td> App </td> <td> Command </td> <td> Notes </td></tr>
+  <tr><td> Stratum Bridge </td> <td> Command </td> <td> Notes </td></tr>
   <tr><td>Astrix Stratum Bridge</td><td>docker run -d --network host --restart always --log-opt max-size=10m --name astrixstratum theretromike/stratums:astrix --stratum=:5001 --prom=:2001</td><td></td></tr>
 </table>    
