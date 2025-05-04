@@ -35,7 +35,8 @@ This repository serves as a reference point to any Nodes and/or stratum bridges 
     
   </td>
   </tr>
-  <tr><td>Griffion</td><td>sudo docker run -d --network host --restart always --log-opt max-size=10m --name griff -v /data/.griff/:/root/.griffion theretromike/nodes:griffion</td><td></td></tr
+  <tr><td>Griffion</td><td>sudo docker run -d --network host --restart always --log-opt max-size=10m --name griff -v /data/.griff/:/root/.griffion theretromike/nodes:griffion</td><td></td></tr>
+  <tr><td>Innova</td><td>sudo docker run -d --network host --restart always --log-opt max-size=10m --name inn -v /data/.inn/:/root/.innova theretromike/nodes:innova</td><td></td></tr>
   <tr><td>Pigeoncoin</td><td>docker run -d --network host --restart always --log-opt max-size=10m --name pgn -v /data/.pgn/:/root/.pigeoncore theretromike/nodes:pigeoncoin</td><td></td></tr>
   <tr><td>Verus</td><td>docker run -d --network host --restart always --log-opt max-size=10m --name verus -v /data/.vrsc/:/root/.komodo/VRSC theretromike/nodes:verus</td><td></td></tr>
 </table>
